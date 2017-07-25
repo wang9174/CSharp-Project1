@@ -64,8 +64,6 @@
                 <dxr:RibbonDefaultPageCategory>
                     <dxr:RibbonPage Caption="文件" x:Name="pagePage1">
                         <dxr:RibbonPageGroup x:Name="grpPageFileCommon" ShowCaptionButton="False" Caption="文件">
-                            <dxb:BarButtonItemLink BarItemName="biOpenSchedule"/>
-                            <dxb:BarButtonItemLink BarItemName="biSaveSchedule"/>
                             <dxb:BarButtonItem x:Name="barButtonItem1" Content="打开文件" RibbonStyle="Large" LargeGlyph="pack://application:,,,/DXApplication1;component/Images/Icons/document1.png"/>
                         </dxr:RibbonPageGroup>
                         <dxr:RibbonPageGroup Caption="新建文件">
